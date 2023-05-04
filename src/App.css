@@ -3,6 +3,7 @@ body{
   margin: 0;
   background-color: #6b4e65;
   color: white;
+   overflow: hidden;
 }
 
 .landing_counter_container{

@@ -24,7 +24,7 @@ function App() {
 
   useEffect(() => {
     if (count === 2023) {
-      setTimeout(() => setShowNewPage(true), 2000)
+      setTimeout(() => setShowNewPage(true), 10)
     }
   }, [count])
 

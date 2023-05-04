@@ -1,0 +1,60 @@
+/* MyComponent.css */
+/* .page {
+    display: none;
+    animation-duration: 0.5s;
+  }
+  
+  .slide-in {
+    display: block;
+    animation-name: slide-in;
+  }
+  
+  .slide-out {
+    animation-name: slide-out;
+  }
+  
+  @keyframes slide-in {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes slide-out {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(100%); opacity: 0; }
+  } */
+  /* 
+.page {
+    animation-duration: 0.5s;
+  }
+  
+  .slide-in {
+    animation-name: slide-in;
+  }
+  
+  .slide-out {
+    animation-name: slide-out;
+  }
+  
+  @keyframes slide-in {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
+  
+  @keyframes slide-out {
+    from { transform: translateX(0); }
+    to { transform: translateX(100%); }
+  }
+   */
+   /* 
+.page {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+   */
