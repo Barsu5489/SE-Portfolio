@@ -1,19 +1,21 @@
 import React from 'react'
-
+import './works.css'
 function Works() {
   return (
    <>
    <section class="content">
     <p>Works</p>
-				{/* <div class="content__title-wrap">
-					<h2 class="content__title">Issey Maurice</span></h2>
-					<h3 class="content__subtitle">Interior Design</span></h3>
-				</div> */}
 				<div class="grid-wrap">
 					<div class="grid">
 						<a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
-						<a class="grid__item" data-title="Alo House, LA"><span class="grid__item-img" style="background-image:url(img/2.jpg)"></span></a>
-						<a class="grid__item" data-title="Freedom Field, NY"><span class="grid__item-img" style="background-image:url(img/3.jpg)"></span></a>
+            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
+            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
+            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
+            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
+            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
+            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
+            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
+            {/* <a class="grid__item" data-title="Freedom Field, NY"><span class="grid__item-img" style="background-image:url(img/3.jpg)"></span></a>
 						<a class="grid__item" data-title="Hollow Creek, AR"><span class="grid__item-img" style="background-image:url(img/4.jpg)"></span></a>
 						<a class="grid__item" data-title="Coco's Place, VT"><span class="grid__item-img" style="background-image:url(img/5.jpg)"></span></a>
 						<a class="grid__item" data-title="French Blanc, WY"><span class="grid__item-img" style="background-image:url(img/6.jpg)"></span></a>
@@ -24,16 +26,9 @@ function Works() {
 						<a class="grid__item" data-title="Beluga Nest, AZ"><span class="grid__item-img" style="background-image:url(img/11.jpg)"></span></a>
 						<a class="grid__item" data-title="Bibi Montes, FL"><span class="grid__item-img" style="background-image:url(img/12.jpg)"></span></a>
 						<a class="grid__item" data-title="QX House, NY"><span class="grid__item-img" style="background-image:url(img/13.jpg)"></span></a>
-						<a class="grid__item" data-title="Lola's Garden, DC"><span class="grid__item-img" style="background-image:url(img/14.jpg)"></span></a>
+						<a class="grid__item" data-title="Lola's Garden, DC"><span class="grid__item-img" style="background-image:url(img/14.jpg)"></span></a> */}
 					</div>
 				</div>
-				{/* <div class="enter oh">
-					<a class="enter__link oh__inner"> 
-						<span>Enter</span> 
-						<svg width="18px" height="18px" viewBox="0 0 24 24"><path vector-effect="non-scaling-stroke" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path>
-						</svg>
-					</a> 
-				</div> */}
 			</section>
       <section class="works">
 				<h2 class="works__title">
