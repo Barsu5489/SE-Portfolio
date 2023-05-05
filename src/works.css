@@ -1,0 +1,23 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5vh;
+}
+
+.grid__item {
+	height: 47.5vh; /* 50vh minus half of the gap */
+	background-size: cover;
+	background-position: 50% 20%;
+}
+
+.grid__item:nth-child(3n-2) {
+	border-radius: 0 2rem 2rem 0;
+}
+
+.grid__item:nth-child(3n) {
+	border-radius: 2rem 0 0 2rem;
+}
+
+.grid__item:nth-child(3n-1) {
+	border-radius: 2rem;
+}

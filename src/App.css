@@ -28,6 +28,13 @@ body{
   width:100%;
   color: black;
 }
+.new-page h1{
+  font-size: 150px;
+  display: inline;
+  margin-left: 5%;
+  width: 10vh;
+  border: 1px solid black;
+}
 
 @keyframes slide-up{
   from{
@@ -50,7 +57,38 @@ body{
 .nav_items > li{
   margin: 10px;
 }
-
+.home_container{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+.text_about_me{
+  width: 100%;
+  margin-left: 6%;
+}
+.text_about_me p {
+  font-size:30px;
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.my_image img{
+  height: 90vh;
+}
+.profession{
+  margin-left: 10%;
+  width: 50%;
+}
+.profession span{
+  font-size: 20px;
+}
+div{
+  border: 2px solid black;
+}
+.my_image{
+  flex: 1;
+  margin-right: 150px;
+}
 
 /* @keyframes logo-spin {
   from {
