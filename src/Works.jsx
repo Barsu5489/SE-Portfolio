@@ -1,42 +1,127 @@
 import React from 'react'
-import './works.css'
+
 function Works() {
   return (
    <>
-   <section class="content">
-    <p>Works</p>
-				<div class="grid-wrap">
-					<div class="grid">
-						<a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
-            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
-            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
-            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
-            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
-            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
-            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
-            <a class="grid__item" data-title="Rockbare Hub, NY"><span class="grid__item-img" style={{backgroundImage:"url(https://images.unsplash.com/photo-1682876190933-9fd15369b5df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)"}}></span></a>
-            {/* <a class="grid__item" data-title="Freedom Field, NY"><span class="grid__item-img" style="background-image:url(img/3.jpg)"></span></a>
-						<a class="grid__item" data-title="Hollow Creek, AR"><span class="grid__item-img" style="background-image:url(img/4.jpg)"></span></a>
-						<a class="grid__item" data-title="Coco's Place, VT"><span class="grid__item-img" style="background-image:url(img/5.jpg)"></span></a>
-						<a class="grid__item" data-title="French Blanc, WY"><span class="grid__item-img" style="background-image:url(img/6.jpg)"></span></a>
-						<a class="grid__item" data-title="Fantasy Garden, NY"><span class="grid__item-img" style="background-image:url(img/7.jpg)"></span></a>
-						<a class="grid__item" data-title="Quegmire Denn, LA"><span class="grid__item-img" style="background-image:url(img/8.jpg)"></span></a>
-						<a class="grid__item" data-title="Kurku Wax, NY"><span class="grid__item-img" style="background-image:url(img/9.jpg)"></span></a>
-						<a class="grid__item" data-title="Jen's Hub, CO"><span class="grid__item-img" style="background-image:url(img/10.jpg)"></span></a>
-						<a class="grid__item" data-title="Beluga Nest, AZ"><span class="grid__item-img" style="background-image:url(img/11.jpg)"></span></a>
-						<a class="grid__item" data-title="Bibi Montes, FL"><span class="grid__item-img" style="background-image:url(img/12.jpg)"></span></a>
-						<a class="grid__item" data-title="QX House, NY"><span class="grid__item-img" style="background-image:url(img/13.jpg)"></span></a>
-						<a class="grid__item" data-title="Lola's Garden, DC"><span class="grid__item-img" style="background-image:url(img/14.jpg)"></span></a> */}
-					</div>
-				</div>
-			</section>
-      <section class="works">
-				<h2 class="works__title">
-					<span class="oh"><span class="oh__inner">Selected</span></span>
-					<span class="oh"><span class="oh__inner">Works</span></span>
-				</h2>
-				{/* <!-- grid gets flipped here --> */}
-			</section>
+   <div className='project_imgs'>
+   <div className='works_image_container'> 
+      <h3>Fashionnova</h3>   
+      <img src="https://images.unsplash.com/photo-1657812159103-1b2a52a7f5e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM0fHxlY29tbWVyY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
+      <div class="overlay">
+    <div class="overlay-content"> 
+      <p>This ecommerce app lets users shop for fashionable clothing and accessories while providing an admin dashboard for the website owner to manage products, inventory, and sales.</p>
+
+      <button></button>
+    </div>
+  </div>
+  <div class="languages">
+    <h4>Languages used:</h4>
+    <ol>
+      <li>Redux</li>
+      <li>CSS</li>
+      <li>Vanilla</li>
+      <li>React</li>
+      <li>Ruby</li>
+      <li>Postgres</li>
+    </ol>
+  </div>
+</div>
+<div className='works_image_container'>   
+<h3>Job App</h3>  
+   <img src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Sm9ic3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+   <div class="overlay">
+    <div class="overlay-content">
+      <p>Info about the image</p>
+    </div>
+  </div>
+  <div class="languages">
+    <h4>Languages used:</h4>
+    <ul>
+    <li>React</li>
+      <li>Rails</li>
+      <li>SQLite</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+  </div>
+</div>   
+<div className='works_image_container'>  
+<h3>Crypto</h3>  
+    <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyeXB0b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+    <div class="overlay">
+    <div class="overlay-content">
+      <p>Info about the image</p>
+    </div>
+  </div>
+  <div class="languages">
+    <h4>Languages used:</h4>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Vanilla JS</li>
+    </ul>
+  </div>
+</div> 
+  </div>
+   <div className='works_title'>
+<h2>Current <span>Works</span></h2>
+   </div>
+   <div className='project_imgs'>
+   <div className='works_image_container'>    
+      <h3>Portfolio</h3>
+      <img src="https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHBvcnRmb2xpbyUyMG1hbmFnZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
+      <div class="overlay">
+    <div class="overlay-content">
+      <p>Info about the image</p>
+    </div>
+  </div>
+  <div class="languages">
+    <h4>Languages used:</h4>
+    <ul>
+
+    <li>JavaScript</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>React</li>
+      <li>Ruby</li>
+      <li>SQLite</li>
+      <li>Postman</li>
+    </ul>
+  </div>
+  
+</div>
+<div className='works_image_container'>   
+<h3>Printf</h3>  
+    <img src="https://images.unsplash.com/photo-1603827457577-609e6f42a45e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fERvbmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+    <div class="overlay">
+    <div class="overlay-content">
+      <p>Info about the image</p>
+    </div>
+  </div>
+  <div class="languages">
+    <h4>Tech used:</h4>
+    <ul>
+      <li>C</li>
+      <li>VIM</li>
+    </ul>
+  </div>
+</div>   
+<div className='works_image_container'> 
+<h3>Shell</h3>  
+     <img src="https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Qm9va2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+     <div class="overlay">
+    <div class="overlay-content">
+      <p>Info about the image</p>
+    </div>
+  </div>
+  <div class="languages">
+    <h4>Tech used:</h4>
+    <ul>
+      <li>C</li>
+      <li>VIM</li>
+    </ul>
+  </div>
+</div>   </div>
    </>
   )
 }

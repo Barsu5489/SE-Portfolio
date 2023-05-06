@@ -1,23 +1,32 @@
 import React, { useState } from 'react'
 import Works from './Works'
+import App from './App'
+import Contact from './Contact'
+import './works.css'
 function Navbar() {
-    const [display, setDisplay] = useState('about')
+    const [display, setDisplay] = useState('')
     const handleWorks = (info)=>{
 setDisplay(info)
+    }
+    function handleHome(info){
+setDisplay(info)
+    }
+    function handleContact(info){
+      setDisplay(info)
     }
   return (
     <>
     <div className='navbar'>
-        <div> <h2>Emmanuel</h2></div>
+        <div onClick={()=>handleHome('home')}> <h2>Emmanuel</h2></div>
         <div> 
             <ul className='nav_items'>
-                <li>About</li>
+                <li onClick={()=>handleHome('home')}>About</li>
                 <li onClick={()=>handleWorks('works')}>Works</li>
-                <li>Contact</li>
+                <li onClick={()=> handleContact('contact')}>Contact</li>
             </ul>
         </div>
         </div>
-        {display === 'works' ? (<Works/>):('')}
+        {display === 'works' ? (<Works/>): display === 'home' ? (<Contact />): display === 'contact' ? (<Contact/>): (null)}
         </>
   )
 }
