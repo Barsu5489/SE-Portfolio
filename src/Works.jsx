@@ -1,10 +1,14 @@
 import React from 'react'
 
 function Works() {
+  function handleClick(url) {
+  window.location.href = url;
+}
+
   return (
    <>
    <div className='project_imgs'>
-   <div className='works_image_container'> 
+   <div className='works_image_container' onClick={()=>handleClick('https://fashion-store-beta.vercel.app/')}> 
       <h3>Fashionnova</h3>   
       <img src="https://images.unsplash.com/photo-1657812159103-1b2a52a7f5e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM0fHxlY29tbWVyY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
       <div class="overlay">
@@ -26,7 +30,7 @@ function Works() {
     </ol>
   </div>
 </div>
-<div className='works_image_container'>   
+<div className='works_image_container' onClick={()=>handleClick('https://job-app-user-interface.vercel.app/')}>   
 <h3>Job App</h3>  
    <img src="https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Sm9ic3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
    <div class="overlay">
@@ -45,7 +49,7 @@ function Works() {
     </ul>
   </div>
 </div>   
-<div className='works_image_container'>  
+<div className='works_image_container' onClick={()=>handleClick('https://barsu5489.github.io/Crypto/')}>  
 <h3>Crypto</h3>  
     <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyeXB0b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
     <div class="overlay">
@@ -67,7 +71,7 @@ function Works() {
 <h2>Current <span>Works</span></h2>
    </div>
    <div className='project_imgs'>
-   <div className='works_image_container'>    
+   <div className='works_image_container' onClick={()=>handleClick('https://porfolio-application.vercel.app/')}>    
       <h3>Portfolio</h3>
       <img src="https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHBvcnRmb2xpbyUyMG1hbmFnZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
       <div class="overlay">
@@ -90,7 +94,7 @@ function Works() {
   </div>
   
 </div>
-<div className='works_image_container'>   
+<div className='works_image_container' onClick={()=>handleClick('https://github.com/Barsu5489/printf')}>   
 <h3>Printf</h3>  
     <img src="https://images.unsplash.com/photo-1603827457577-609e6f42a45e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fERvbmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
     <div class="overlay">
@@ -106,7 +110,7 @@ function Works() {
     </ul>
   </div>
 </div>   
-<div className='works_image_container'> 
+<div className='works_image_container' onClick={()=>handleClick('https://github.com/Barsu5489/simple_shell')}> 
 <h3>Shell</h3>  
      <img src="https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Qm9va2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
      <div class="overlay">
