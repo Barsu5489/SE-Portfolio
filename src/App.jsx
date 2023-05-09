@@ -3,11 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Navbar'
+import Home from './Home'
+import { useNavigate } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(1996)
   const [showNewPage, setShowNewPage] = useState(false)
 
+const redirect = useNavigate()
   useEffect(() => {
     const countInterval = setInterval(() => {
       setCount((count) => {
@@ -57,30 +60,7 @@ function App() {
             {history}
           </div>
         </div>
-      ) : (
-        <>
-        
-        <div className='new-page'>
-        <Navbar />
-       
-       
-          <section className='home_container'>
-           
-            <div className='text_about_me'> 
-            <h1>Hello Folks</h1>
-            <div className='profession'>
-              <span>I am Emmanuel, a junior fullstack software engineer. <br /> I love to solve problems.</span> 
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia provident corrupti facere nesciunt beatae exercitationem doloremque officiis, rem labore vel! Beatae ut molestiae quasi esse. Facere sapiente soluta quos ratione deleniti praesentium. Tempore delectus voluptatum eos doloremque distinctio. Veniam impedit fugiat voluptatibus atque iusto iste debitis. Saepe temporibus obcaecati quod.</p> </div>
-            <div className='my_image'>
-              
-              <img src="../public/profile.jpg" alt="" />
-            </div>
-            </section>
-          {/* Your new page content goes here */}
-        </div>
-        </>
-      )}
+      ) : (<> {redirect('/home')}</>)}
     </>
   )
 }

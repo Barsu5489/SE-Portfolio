@@ -2,7 +2,7 @@ body{
   padding: 0;
   margin: 0;
   background: linear-gradient(to bottom,#1F1D1C,#170703);
-  color: #eb5c33;
+  color: #f3ddb6;
    overflow: hidden;
 }
 
@@ -33,7 +33,6 @@ body{
   display: inline;
   margin-left: 5%;
   width: 10vh;
-  border: 1px solid black;
 }
 
 @keyframes slide-up{
@@ -74,13 +73,14 @@ body{
 }
 .my_image img{
   height: 90vh;
+  
 }
 .profession{
   margin-left: 10%;
   width: 50%;
 }
 .profession span{
-  font-size: 20px;
+  font-size: 25px;
 }
 /* div{
   border: 2px solid black;

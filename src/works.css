@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');.project_imgs{
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+.project_imgs{
   display: flex;
   justify-content: space-around;
+
+}
+.works_parent_container{
+  height: 100vh;
+  flex-wrap: wrap;
 }
 .project_imgs img{
   height: 25vh;
 }
-/* .works_title{
-  display: flex;
-  justify-content: center;
-} */
+
 .works_title h2{
   font-size: 180px;
   position: relative;
@@ -18,21 +21,22 @@
   color: #eb5c33;
   
 }
-
-/* .works_title span{ */
-  /* margin-top: 40px; */
-  /* position: absolute; */
-  /* top: 60px; */
-  /* right: 25%; */
-/* } */
 h3{
-  /* font-size: 50px; */
+
   margin: 0;
   font-size: max(1.25rem,min(3vw,2rem));
   font-family: 'Nanum Gothic', sans-serif;}
 .works_image_container {
   position: relative;
   overflow: visible;
+}
+.works_image_container:hover{
+  cursor: pointer;
+}
+
+.works_image_container:hover img {
+  transform: scale(0.9);
+  transition: transform .2s;
 }
 
 .works_image_container:hover .overlay {
@@ -45,9 +49,12 @@ h3{
   left: 0;
   height: 100%;
   width: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   overflow: hidden;
   transition: width 0.5s;
+}
+.overlay p{
+  font-size: 20px;
 }
 
 .overlay-content {
@@ -68,8 +75,47 @@ h3{
   transition: right 0.5s;
   display: none;
 }
+.languages li{
+  font-size: 19px;
+}
 
 .works_image_container:hover .languages {
   right: -51%;
   display: block;
+}
+i{
+  background-color: rgb(86, 156, 133);
+ border-radius: 2px;
+ font-size: 20px;
+  padding: 5px;
+  position: relative;
+  /* transition: transform .2s;  */
+}
+i:hover{
+  cursor: pointer;
+  background-color: rgb(65, 99, 65);
+  /* transform: scale(5.5); */
+}
+.git_icon{
+  position: absolute;
+  right: 30px;
+  font-size: 30px;
+ padding-left: 10px;
+ padding-right: 10px;
+  border: 2px solid wheat;
+  border-radius: 4px;
+}
+.git_icon:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .works_title{
+    order: -1;
+    width: 100%;
+  }
+
+  .works_image_container {
+    width: 50%;
+  }
 }
