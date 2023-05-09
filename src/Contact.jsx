@@ -13,7 +13,7 @@ function Contact() {
 <div className="wrapper centered">
   <article className="letter">
     <div className="side">
-      <h1>Contact us</h1>
+      <h1 style={{color:'black'}}>Send Message</h1>
       <p>
         <textarea placeholder="Your message"></textarea>
       </p>
