@@ -66,7 +66,7 @@ function  handleGithub(info){
   </div>
 </div>   
 <div className='works_image_container' onClick={()=>handleClick('https://barsu5489.github.io/Crypto/')}>  
-<h3>CRYPTO INFO</h3>  
+<h3>Crypto Info</h3>  
     <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyeXB0b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
     <div class="overlay">
     <div class="overlay-content">

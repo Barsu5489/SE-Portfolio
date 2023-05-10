@@ -13,7 +13,8 @@ function Home({showNewPage}) {
         <div className='text_about_me'> 
         <h1>Hello,</h1>
         <div className='profession'>
-          <span>I am Emmanuel, a junior fullstack software engineer with a passion for creating exceptional user experiences.</span> 
+          <span>I am Emmanuel, a junior fullstack software engineer. I am seeking for a position to leverage my technical skills and passion for coding in a professional work
+environment.</span> 
         </div>
         <p> I specialize in Javascript and Ruby, with expertise in popular libraries and framework such as React, Redux, and Ruby on Rails.<br /> <br />
           My experience in these technologies, combined with my ability to implement and manage complex databases, such as mySQL, Postgres and SQLite, enable me to create high-performance applications that deliver value to users.</p> </div>
