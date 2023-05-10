@@ -3,7 +3,7 @@ body{
   margin: 0;
   background: linear-gradient(to bottom,#1F1D1C,#170703);
   color: #f3ddb6;
-   overflow: hidden;
+   /* overflow: hidden; */
 }
 
 .landing_counter_container{
@@ -28,6 +28,7 @@ body{
   width:100%;
   color: #f3ddb6;
 }
+
 .new-page h1{
   font-size: 150px;
   display: inline;
@@ -55,7 +56,13 @@ body{
 }
 .nav_items > li{
   margin: 10px;
+  
 }
+.list_nav_item a, a{
+  text-decoration: none;
+  color: #f3ddb6;
+}
+
 .home_container{
   display: flex;
   justify-content: space-around;

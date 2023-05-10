@@ -27,6 +27,7 @@ small {
   display: block;
   padding: 1rem 0;
   font-size: 0.8rem;
+  margin-left: 42%;
   transition: opacity 0.33s;
 }
 textarea, input, #sendLetter {
@@ -183,6 +184,7 @@ textarea:focus {
 .sent .result-message {
     opacity: 1;
     transform: translateY(12rem);
+    margin-left: 45%;
   }
 .sent small {
     opacity: 0;

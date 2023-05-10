@@ -20,9 +20,9 @@ function Navbar() {
         <div> <h2><Link to="/home">Emmanuel</Link></h2></div>
         <div> 
             <ul className='nav_items'>
-                <li> <Link to="/">Home</Link></li>
-                <li><Link to="/works">Works</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li className='list_nav_item'> <Link to="/">Home</Link></li>
+                <li className='list_nav_item'><Link to="/works">Works</Link></li>
+                <li className='list_nav_item'><Link to="/contact">Contact</Link></li>
             </ul>
           
         </div>
