@@ -20,7 +20,7 @@ environment.</span>
           My experience in these technologies, combined with my ability to implement and manage complex databases, such as mySQL, Postgres and SQLite, enable me to create high-performance applications that deliver value to users.</p> </div>
         <div className='my_image'>
           
-          <img src="../public/profile.jpg" alt="" />
+          <img src="/profile.jpg" alt="" />
         </div>
         </section>
       {/* Your new page content goes here */}
